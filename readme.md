@@ -50,7 +50,7 @@ https://shields.io/
 
 然后输入 `packageName` `create-reacte-app`
 
-<div align=center><img width="600"  src="https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png"/></div>
+<div align=center><img width="450"  src="https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png"/></div>
 
 `Copy Badge URL` ，表示MIT开源许可的徽章就生成了
 

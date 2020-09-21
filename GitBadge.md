@@ -42,7 +42,7 @@ https://shields.io/
 
 
 
-以 `create-react-app` 为例，我们要选择它的开源许可证
+以 `create-react-app` 为例，我们要展示它的开源许可证
 
 `create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境的手脚架
 
@@ -52,19 +52,33 @@ https://shields.io/
 
 ![](https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png)
 
-`Copy Badge URL` ，该徽章就生成了
+`Copy Badge URL` ，表示MIT开源许可的徽章就生成了
+
+### 5.自定义Style
+
+|      |               常见命令                |                           命令含义                           |                             补充                             |
+| ---- | :-----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 1.   |        `?label=healthinesses`         | Override the default left-hand-side text<br />将徽章左边的内容改成`healthinesses` |                              /                               |
+| 2.   |           `?logo=appveyor`            |        添加自己想要的[Logo](https://simpleicons.org/)        |                              /                               |
+| 3.   |    `?logo=data:image/png;base64,…`    |           Insert custom logo image (≥ 14px high).            | There is a limit on the total size of request headers we can accept (8192 bytes). |
+| 4.   |          `?logoColor=violet`          | Set the color of the logo. Supported for named logos but not for custom logos. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
+| 5.   |            `?logoWidth=40`            |         Set the horizontal space to give to the logo         |                              /                               |
+| 6.   | `?link=http://left&link=http://right` | Specify what clicking on the left/right of a badge should do |                 esp. for social badge style                  |
+| 7.   |         `?labelColor=abcdef`          | Set background of the left part . The legacy name "colorA" is also supported. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
+| 8.   |         `?labelColor=abcdef`          | Set background of the right part. The legacy name "colorB" is also supported. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
+| 9.   |         `?cacheSeconds=3600`          | Set the HTTP cache lifetime The legacy name "maxAge" is also supported. | rules are applied to infer a default value on a per-badge basis, any values specified below the default will be ignored. |
 
 ### 5.自定义徽章展示
 
-I love open source [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
 
-![](https://img.shields.io/badge/style-flat--square-green?logo=appveyor&style=flat-square)
 
-### 6.常见的徽章生成网站
+|        展示        |                             效果                             |
+| :----------------: | :----------------------------------------------------------: |
+|   那个绿色的男人   | [![](https://img.shields.io/badge/G%E8%83%96%E8%BF%98%E6%88%91-%E8%A1%80%E6%B1%97%E9%92%B1%EF%BC%81-orange?logo=steam)](https://github.com/JeffreyYou/My_Documentation) |
+|  求求了给个三连吧  | [![](https://img.shields.io/badge/下次-一定-orgreen?logo=Bilibili)](https://github.com/JeffreyYou/My_Documentation) |
+| I love open source | [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) |
+|  充钱就能变得更强  | [![](https://img.shields.io/badge/你在想-Peach-red?logo=Tencent-QQ)](https://github.com/JeffreyYou/My_Documentation) |
+| 最大的同性交流网站 | [![](https://img.shields.io/badge/%E6%B2%A1%E9%94%99-%E5%B0%B1%E6%98%AF%E6%88%91-lightgrey?logo=Github)]() |
 
-- https://shields.io/
-- https://badgen.net/
-- https://forthebadge.com/
-- https://badge.fury.io/
-- https://github.com/boennemann/badges
+
 

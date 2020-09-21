@@ -34,23 +34,37 @@
 
 ### 4.如何生成自己喜欢的徽章
 
-1. https://shields.io/
+https://shields.io/
 
-   该网站适用于绝大多数情况,默认按照徽章内容分类
+该网站适用于绝大多数情况,默认按照徽章内容分类
 
-   `Build`,`Code Coverage`,`Analysis` 等多主题,同时支持自定义徽章和动态徽章.
+`Build`,`Code Coverage`,`Analysis` 等多主题,同时支持自定义徽章和动态徽章.
 
-   以 `create-react-app` 为例
 
-   `create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境的手脚架
 
-   首先进入官网选择 `License`  -- `npm` 
+以 `create-react-app` 为例，我们要选择它的开源许可证
 
-   ![](https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921155449.png)
+`create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境的手脚架
 
-   输入 `packageName` `create-reacte-app`
+首先进入官网选择 `License`  -- `npm` 
 
-   ![](https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png)
+然后输入 `packageName` `create-reacte-app`
 
-   `copy Url` 
+![](https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png)
+
+`Copy Badge URL` ，该徽章就生成了
+
+### 5.自定义徽章展示
+
+I love open source [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
+
+![](https://img.shields.io/badge/style-flat--square-green?logo=appveyor&style=flat-square)
+
+### 6.常见的徽章生成网站
+
+- https://shields.io/
+- https://badgen.net/
+- https://forthebadge.com/
+- https://badge.fury.io/
+- https://github.com/boennemann/badges
 

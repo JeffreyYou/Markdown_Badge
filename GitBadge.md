@@ -70,7 +70,12 @@ https://shields.io/
 
 ### 5.自定义徽章展示
 
-<p align="center">
+<style>
+table {
+margin: auto;
+}
+</style>
+
 
 |        展示        |                             效果                             |
 | :----------------: | :----------------------------------------------------------: |
@@ -80,5 +85,5 @@ https://shields.io/
 |  充钱就能变得更强  | [![](https://img.shields.io/badge/你在想-Peach-red?logo=Tencent-QQ)](https://github.com/JeffreyYou/My_Documentation) |
 | 最大的同性交流网站 | [![](https://img.shields.io/badge/%E6%B2%A1%E9%94%99-%E5%B0%B1%E6%98%AF%E6%88%91-lightgrey?logo=Github)]() |
 
-</p>
+
 

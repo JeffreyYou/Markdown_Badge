@@ -1,3 +1,5 @@
+<style>table {margin: auto;}</style>
+
 # 如何添加一个好看的徽章
 
 ### 1.前言

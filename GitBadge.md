@@ -4,7 +4,7 @@
 
 平时在逛Github的时候都经常看到项目首页各式各样的徽章：
 
-`vue` : ![](https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/npm/dm/vue.svg?sanitize=true" alt="Downloads)
+`vue` : ![](https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/npm/dm/vue.svg?sanitize=true")
 
 `React` : [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 

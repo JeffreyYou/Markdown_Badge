@@ -58,19 +58,19 @@ https://shields.io/
 
 |      |               常见命令                |                           命令含义                           |                             补充                             |
 | ---- | :-----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 1.   |        `?label=healthinesses`         | Override the default left-hand-side text<br />将徽章左边的内容改成`healthinesses` |                              /                               |
+| 1.   |        `?label=healthinesses`         |             将徽章左边的内容改成`healthinesses`              |                              /                               |
 | 2.   |           `?logo=appveyor`            |        添加自己想要的[Logo](https://simpleicons.org/)        |                              /                               |
-| 3.   |    `?logo=data:image/png;base64,…`    |           Insert custom logo image (≥ 14px high).            | There is a limit on the total size of request headers we can accept (8192 bytes). |
-| 4.   |          `?logoColor=violet`          | Set the color of the logo. Supported for named logos but not for custom logos. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
-| 5.   |            `?logoWidth=40`            |         Set the horizontal space to give to the logo         |                              /                               |
-| 6.   | `?link=http://left&link=http://right` | Specify what clicking on the left/right of a badge should do |                 esp. for social badge style                  |
-| 7.   |         `?labelColor=abcdef`          | Set background of the left part . The legacy name "colorA" is also supported. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
-| 8.   |         `?labelColor=abcdef`          | Set background of the right part. The legacy name "colorB" is also supported. |  hex, rgb, rgba, hsl, hsla and css named colors supported.   |
+| 3.   |    `?logo=data:image/png;base64,…`    |                   自定义logo (≥ 14px high)                   | There is a limit on the total size of request headers we can accept (8192 bytes). |
+| 4.   |          `?logoColor=violet`          |                        改变logo的颜色                        |      支持hex, rgb, rgba, hsl, hsla and css named colors      |
+| 5.   |            `?logoWidth=40`            |                      设置logo的水平长度                      |                              /                               |
+| 6.   | `?link=http://left&link=http://right` |                   单独设置徽章左侧的超链接                   |                              /                               |
+| 7.   |         `?labelColor=abcdef`          |                       修改左侧背景颜色                       |         The legacy name "colorA" is also supported.          |
+| 8.   |            `?color=fedcba`            |                       修改右侧背景颜色                       |         The legacy name "colorB" is also supported.          |
 | 9.   |         `?cacheSeconds=3600`          | Set the HTTP cache lifetime The legacy name "maxAge" is also supported. | rules are applied to infer a default value on a per-badge basis, any values specified below the default will be ignored. |
 
 ### 5.自定义徽章展示
 
-
+<p align="center">
 
 |        展示        |                             效果                             |
 | :----------------: | :----------------------------------------------------------: |
@@ -80,5 +80,5 @@ https://shields.io/
 |  充钱就能变得更强  | [![](https://img.shields.io/badge/你在想-Peach-red?logo=Tencent-QQ)](https://github.com/JeffreyYou/My_Documentation) |
 | 最大的同性交流网站 | [![](https://img.shields.io/badge/%E6%B2%A1%E9%94%99-%E5%B0%B1%E6%98%AF%E6%88%91-lightgrey?logo=Github)]() |
 
-
+</p>
 

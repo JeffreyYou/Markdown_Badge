@@ -24,13 +24,33 @@
 
 徽章的常用格式：`[![徽章的描述](svg或者png文件的链接)`](想要跳转的超链接)
 
-采用超链接嵌套图片超链接的格式(MarkDown格式)：[![我是徽章](https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen)](https://github.com/JeffreyYou/My_Documentation)
+采用 `Markdown` 格式：[![我是徽章](https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen)](https://github.com/JeffreyYou/My_Documentation)
 
 `[![我是徽章](https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen)](https://github.com/JeffreyYou/My_Documentation)`
 
-采用HTML格式：<a href="https://github.com/JeffreyYou/My_Documentation"><img src="https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen"></a>
+采用 `HTML` 格式：<a href="https://github.com/JeffreyYou/My_Documentation"><img src="https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen"></a>
 
-`<a href="https://github.com/JeffreyYou/My_Documentation"><img src="https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen"></a>`
+`<a href="https://github.com/JeffreyYou/My_Documentation"><img src="https://img.shields.io/badge/JeffreyYou%E7%9A%84-GitHub-brightgreen" alt="我是徽章"></a>`
 
 ### 4.如何生成自己喜欢的徽章
+
+1. https://shields.io/
+
+   该网站适用于绝大多数情况,默认按照徽章内容分类
+
+   `Build`,`Code Coverage`,`Analysis` 等多主题,同时支持自定义徽章和动态徽章.
+
+   以 `create-react-app` 为例
+
+   `create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境的手脚架
+
+   首先进入官网选择 `License`  -- `npm` 
+
+   ![]()
+
+   输入 `packageName` `create-reacte-app`
+
+   ![]()
+
+   `copy Url` 
 

@@ -34,41 +34,53 @@
 
 ### 4.如何生成自己喜欢的徽章
 
-https://shields.io/
+比较常见的网站如 [Quality metadata badges for open source projects](https://shields.io/)
 
 该网站适用于绝大多数情况,默认按照徽章内容分类
 
-`Build`,`Code Coverage`,`Analysis` 等多主题,同时支持自定义徽章和动态徽章.
+支持 `Build`,`Code Coverage`,`Analysis` 等多主题,同时支持自定义徽章和动态徽章.
 
-
+例如：
 
 以 `create-react-app` 为例，我们要展示它的开源许可证
 
-`create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境的手脚架
+`create-react-app`  是Facebook为了方便开发者搭建 `react` 项目开发环境所准备的手脚架
 
 首先进入官网选择 `License`  -- `npm` 
 
 然后输入 `packageName` `create-reacte-app`
 
-<div align=center><img width="450"  src="https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png"/></div>
+<div align=center><img width="400"  src="https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png"/></div>
 
 `Copy Badge URL` ，表示MIT开源许可的徽章就生成了
 
-### 5.自定义Style
+### 5.如何自定义徽章的样式
 
-|      |               常见命令                |                           命令含义                           |                             补充                             |
-| ---- | :-----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 1.   |        `?label=healthinesses`         |             将徽章左边的内容改成`healthinesses`              |                              /                               |
-| 2.   |           `?logo=appveyor`            |        添加自己想要的[Logo](https://simpleicons.org/)        |                              /                               |
-| 3.   |    `?logo=data:image/png;base64,…`    |                   自定义logo (≥ 14px high)                   | There is a limit on the total size of request headers we can accept (8192 bytes). |
-| 4.   |          `?logoColor=violet`          |                        改变logo的颜色                        |      支持hex, rgb, rgba, hsl, hsla and css named colors      |
-| 5.   |            `?logoWidth=40`            |                      设置logo的水平长度                      |                              /                               |
-| 6.   | `?link=http://left&link=http://right` |                   单独设置徽章左侧的超链接                   |                              /                               |
-| 7.   |         `?labelColor=abcdef`          |                       修改左侧背景颜色                       |         The legacy name "colorA" is also supported.          |
-| 8.   |            `?color=fedcba`            |                       修改右侧背景颜色                       |         The legacy name "colorB" is also supported.          |
-| 9.   |         `?cacheSeconds=3600`          | Set the HTTP cache lifetime The legacy name "maxAge" is also supported. | rules are applied to infer a default value on a per-badge basis, any values specified below the default will be ignored. |
+|      |               常见命令                |                    命令含义                    |                             补充                             |
+| ---- | :-----------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: |
+| 1.   |        `?label=healthinesses`         |      将徽章左边的内容改成`healthinesses`       |                              /                               |
+| 2.   |           `?logo=appveyor`            | 添加自己想要的[Logo](https://simpleicons.org/) |                              /                               |
+| 3.   |    `?logo=data:image/png;base64,…`    |            自定义logo (≥ 14px high)            |                整体大小不能大于 `8192 bytes`                 |
+| 4.   |          `?logoColor=violet`          |                 改变logo的颜色                 | 支持 `hex`, `rgb`, `rgba`,` hsl`, `hsla` and `css named` 颜色 |
+| 5.   |            `?logoWidth=40`            |               设置logo的水平长度               |                              /                               |
+| 6.   | `?link=http://left&link=http://right` |            单独设置徽章左侧的超链接            |                              /                               |
+| 7.   |         `?labelColor=abcdef`          |                修改左侧背景颜色                |                      可用 `colorA` 替换                      |
+| 8.   |            `?color=fedcba`            |                修改右侧背景颜色                |                      可用 `colorB` 替换                      |
+| 9.   |         `?cacheSeconds=3600`          |              设置HTTP缓存生存时间              |                      可用 `maxAge` 替换                      |
 
-### 5.自定义徽章展示
+### 6.如何使用自定义logo
+
+**第一步** ：下载好自己喜欢的 `svg` / `imae` / `png` 
+
+**第二步** ：将下载好的图片通过 [Base64转码工具](https://tool.oschina.net/encrypt?type=3) 转成一个以 `data:image/png;base64` 为开头的字符串
+
+**第三步** ：将转义好的 `base64` 字符串通过 [百分号转码工具](https://meyerweb.com/eric/tools/dencoder/) 将一些字符如 `/` 转义成 `%2F`  的 `URL` 地址
+
+**第四步** ：将转义好的 `URL` 按照 `?logo=URL` 的格式添加的链接的结尾
+
+![](https://img.shields.io/badge/I%20love%20you%20-three%20thound-red)
+
+### 7.自定义徽章展示
 
 
 |        展示        |                             效果                             |
@@ -88,7 +100,5 @@ https://shields.io/
 
 ![](https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/svg/iconmonstr-favorite-1.svg)
 
-[![](https://img.shields.io/badge/你在想-Peach-red?logo=https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/svg/iconmonstr-favorite-1.svg)](https://github.com/JeffreyYou/My_Documentation)
-
-[![](https://img.shields.io/badge/你在想-Peach-red?logo=data:image/png;base64,…)](https://github.com/JeffreyYou/My_Documentation)
+![](https://img.shields.io/badge/gadget-Raspberry%20Pi-pink.svg?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMTIgMTIgNDAgNDAiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiwxMy40Yy0xMC41LDAtMTksOC41LTE5LDE5YzAsOC40LDUuNSwxNS41LDEzLDE4YzEsMC4yLDEuMy0wLjQsMS4zLTAuOWMwLTAuNSwwLTEuNywwLTMuMiBjLTUuMywxLjEtNi40LTIuNi02LjQtMi42QzIwLDQxLjYsMTguOCw0MSwxOC44LDQxYy0xLjctMS4yLDAuMS0xLjEsMC4xLTEuMWMxLjksMC4xLDIuOSwyLDIuOSwyYzEuNywyLjksNC41LDIuMSw1LjUsMS42IGMwLjItMS4yLDAuNy0yLjEsMS4yLTIuNmMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEsMC43LTMuNywyLTUuMWMtMC4yLTAuNS0wLjgtMi40LDAuMi01YzAsMCwxLjYtMC41LDUuMiwyIGMxLjUtMC40LDMuMS0wLjcsNC44LTAuN2MxLjYsMCwzLjMsMC4yLDQuNywwLjdjMy42LTIuNCw1LjItMiw1LjItMmMxLDIuNiwwLjQsNC42LDAuMiw1YzEuMiwxLjMsMiwzLDIsNS4xYzAsNy4zLTQuNSw4LjktOC43LDkuNCBjMC43LDAuNiwxLjMsMS43LDEuMywzLjVjMCwyLjYsMCw0LjYsMCw1LjJjMCwwLjUsMC40LDEuMSwxLjMsMC45YzcuNS0yLjYsMTMtOS43LDEzLTE4LjFDNTEsMjEuOSw0Mi41LDEzLjQsMzIsMTMuNHoiLz48L3N2Zz4%3D)
 

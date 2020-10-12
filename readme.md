@@ -111,7 +111,16 @@
 
 
 
+```HTML
 
+<table align=center>
+<thead>
+<tr><th>1</th><th>1</th><th>1</th></tr></thead>
+<tbody><tr><td>&nbsp;</td><td>12</td><td>1</td></tr><tr><td>&nbsp;</td><td>11</td><td>&nbsp;</td></tr><tr><td>21</td><td>212</td><td>1</td></tr></tbody>
+</table>
+
+
+```
 
 ### 9.补充
 

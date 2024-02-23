@@ -6,7 +6,7 @@
 
 `vue` : ![](https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg?sanitize=true) ![](https://img.shields.io/npm/dm/vue.svg?sanitize=true")
 
-`React` : [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+`React` : [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
 `Angular` : [![CircleCI](https://circleci.com/gh/angular/angular/tree/master.svg?style=shield)](https://circleci.com/gh/angular/workflows/angular/tree/master) [![Join the chat at https://gitter.im/angular/angular](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angular/angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/@angular/core)
 
@@ -50,7 +50,7 @@
 
 然后输入 `packageName` `create-reacte-app`
 
-<div align=center><img width="400"  src="https://github.com/JeffreyYou/My_Documentation/blob/master/images/Badges/20200921153812.png"/></div>
+<div align=center><img width="400"  src="./notes/1.png"/></div>
 
 `Copy Badge URL` ，表示MIT开源许可的徽章就生成了
 
@@ -108,8 +108,3 @@
 个人推荐的图片图标资源网站：https://icons8.com/
 
 自定义logo时尽量选择14px左右的图片，且尽量挑选纯色的图片，否则展示效果可能会不是很理想，如果图片太大经过Base64转码后的url会非常长，导致加载失败。
-
-**如果你觉得本文对你有所帮助请给我一个star吧~**
-
-:video_game: [我是游戏](www.google,com)
-
